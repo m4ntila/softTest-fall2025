@@ -34,7 +34,6 @@ describe('eq', () => {
   });
 
   test('returns true for loosely equal values (==)', () => {
-    // Because your function uses "value == other"
     expect(eq(1, '1')).toBe(true);
     expect(eq(null, undefined)).toBe(true);
   });
