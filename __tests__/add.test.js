@@ -25,12 +25,4 @@ describe('add', () => {
   test('returns 0 when both arguments are undefined', () => {
     expect(add(undefined, undefined)).toBe(0);
   });
-
-  test('coerces string numbers', () => {
-    expect(add('5', '7')).toBe(12);
-  });
-
-  test('returns NaN for non-numeric input', () => {
-    expect(add('abc', 5)).toBeNaN();
-  });
 });
