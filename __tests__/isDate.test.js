@@ -1,6 +1,6 @@
 import isDate from '../src/isDate.js';
 
-describe('isDate (no nodeIsDate)', () => {
+describe('isDate', () => {
   test('returns true for a Date object', () => {
     expect(isDate(new Date())).toBe(true);
   });
